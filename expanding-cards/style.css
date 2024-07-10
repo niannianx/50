@@ -1,0 +1,26 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#box{
+    display: flex;
+    width: 80vw;
+    height: 80vh;
+}
+
+.panel{
+    background-size: cover;
+    height: 80vh;
+    background-position: center;
+    flex: 1;
+    border-radius: 25px;
+    box-shadow: 5px 5px #9c9c9c81;
+    margin: 10px;
+    transition: flex 1s  linear;
+}
+
